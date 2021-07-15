@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body {
+	background: gray;
+}
+
+#divPage {
+	width: 1000px;
+	background: white;
+	box-shadow: 10px 10px 10px blak;
+	margin: auto;
+}
+
+#divTop {
+	padding: 30px 0px 0px 0px;
+	text-align: center;
+}
+
+#divCenter {
+	width: 980px;
+	border: 1px solid #408080;
+	margin: 0px 10px 0px 10px;
+	padding-bottom: 20px;
+}
+
+#divMenu {
+	overflow: hidden;
+	background: #EAEAEA;
+	margin: 0px 0px 20px 0px;
+	padding: 10px;
+	border-bottom: 1px solid green;
+}
+
+#divMenu .menuItem {
+	width: 80px;
+	float: left;
+}
+
+#divContent {
+	width: 900px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+#divBottom {
+	padding: 0px 0px 10px 0px;
+	text-align: center;
+}
+
+#divHeader {
+	width: 980px;
+	text-align: center;
+}
+
+#divCondition {
+	width: 820px;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-bottom: 5px;
+	border: 1px dotted black;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+#pagination {
+	width: 920px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+	font-size: 13px;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+table .title {
+	background: #EAEAEA;
+	text-align: center;
+}
+
+table .row:hover {
+	background: gray;
+	color: white;
+}
+
+td {
+	border: 1px solid black;
+	height: 30px;
+	font-size: 12px;
+	padding: 0px 5px 0px 5px;
+}
+textarea{
+	font-size: 12px;
+}
+td button {
+	text-align: center;
+}
+
+#darken-background {
+	 position:absolute;
+	 top:0px; 
+	 left:0px;
+	 right:0px;
+	 height:100%;
+	 display:none;
+	 background:rgba(0, 0, 0, 0.5);
+	 z-index:10000;
+	 overflow-y:scroll;
+ }
+ #lightbox {
+	 width:700px;
+	 margin:20px auto;
+	 padding:15px;
+	 border: 1px solid #333333;
+	 border-radius:5px;
+	 background:white;
+	 box-shadow:0px 5px 5px rgba(34, 25, 25, 0.4);
+	 text-align:center;
+ }
