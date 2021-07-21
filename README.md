@@ -31,6 +31,8 @@
 **직원 List**
 ![전자결재 직원목록](https://user-images.githubusercontent.com/72686897/126278344-c6021d51-865d-4895-b2cf-b0e40fec917b.png)
 
+  * Handlebars를 이용하여 List 출력
+
 **직원 Insert**
 ![전자결재 직원추가](https://user-images.githubusercontent.com/72686897/126279052-850ff71a-8cbc-4412-8714-130eaec0fe94.png)
 
@@ -42,6 +44,9 @@
 ---
 **기안 List**
 ![전자결재 기안목록](https://user-images.githubusercontent.com/72686897/126279761-b0af1232-a854-4ed3-a408-adbb43157669.png)
+  
+  * Handlebars를 이용하여 List 출력
+  * Handlebars registerHelper를 이용하여 상태 표시
 
 **기안 Insert**
 ![전자결재 기안작성](https://user-images.githubusercontent.com/72686897/126279794-ef49c613-d84c-411e-a08c-663303c2cf5a.png)
